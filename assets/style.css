@@ -1,0 +1,96 @@
+body {
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  background-color: #D4CDF4;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #815E5B;
+  border-left: 1px solid #685155;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: url(cactus-bckgrnd.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #685155;
+  border-radius: 0;
+  border-bottom: 10px solid #685155;
+}
+
+.hdr-bckgrnd {
+  width: 800px;
+  display: inline-block;
+  background-color: rgb(237, 226, 197, 0.75);
+  border-radius: 3%;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+
+#currentDay {
+  font-size: 24px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.container {
+  margin-bottom: 100px;
+}
+
+.description{
+  white-space: pre-wrap;
+  font-size: 20px;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid #ede2c5;
+}
+
+.hour {
+  background-color: #ede2c5;
+  color: #815E5B;
+  border-top: 1px dashed #685155;
+  border-radius: 3%;
+}
+
+.past {
+  background-color: #CEC9AE;
+  color: #815E5B;
+}
+
+.present {
+  background-color: #F89C65;
+  color: #815E5B;
+}
+
+.future {
+  background-color: #9faa4e;
+  color: #815E5B;
+}
+
+.saveBtn {
+  border-left: 1px solid #ede2c5;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #7A6F9B;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
