@@ -40,8 +40,14 @@ h1 {
   font-family: 'Dancing Script', cursive;
 }
 
-.container {
+.container-fluid {
   margin-bottom: 100px;
+}
+
+img {
+  float: left;
+  margin-right: 50px;
+  margin-top: 20px;
 }
 
 .description{
