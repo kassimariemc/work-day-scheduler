@@ -25,7 +25,7 @@ textarea {
 }
 
 .hdr-bckgrnd {
-  width: 800px;
+  width: 50%;
   display: inline-block;
   background-color: rgb(237, 226, 197, 0.75);
   border-radius: 3%;
@@ -46,6 +46,7 @@ h1 {
 
 img {
   float: left;
+  width: 30%; 
   margin-right: 50px;
   margin-top: 20px;
 }
@@ -71,6 +72,8 @@ img {
   color: #815E5B;
   border-top: 1px dashed #685155;
   border-radius: 3%;
+  padding: 0;
+  text-align: left;
 }
 
 .past {
@@ -100,3 +103,19 @@ img {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+@media screen and (max-width: 972px) {
+ img {
+   display: none;
+ }
+}
+
+@media screen and (max-width: 608px) {
+  .hour {
+    font-size: small;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+ }
