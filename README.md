@@ -1,6 +1,8 @@
 # work-day-scheduler
 This source code provides a simple calendar application that allows the user to save events for each hour of the day.  
 
+![image](https://user-images.githubusercontent.com/66877217/88310311-82a65900-ccdd-11ea-8a64-f6d5f486e3ac.png)
+
 ## Included Criteria
 
 * semantic HTML elements
